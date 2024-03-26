@@ -12,3 +12,6 @@ The website I use is dedicated to presenting my profile, including my biography,
  - Telegram : derynm
  - Instagram : dery.nm
  - twitter : dery_nm
+
+## Preview
+![Preview Website](./previews/personal-website-preview.png)
