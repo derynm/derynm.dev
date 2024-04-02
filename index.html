@@ -7,102 +7,135 @@
       name="description"
       content="Personal website of Dery Nugroho Marjuki"
     />
-    
-    
+
     <title>Dery Nugroho Marjuki</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="bg-[#181818] text-[#F8F8F8]">
+  <body class="bg-[#181818] text-[#F8F8F8] scroll-smooth relative">
     <header class="max-w-[1024px] mx-auto my-8">
       <nav>
-        <ul class="flex justify-center item-center gap-8 lg:justify-end font-semibold">
-          <li><a href="#home">Experience</a></li>
-          <li><a href="#portfolio">Project</a></li>
+        <ul
+          class="flex justify-center item-center gap-8 lg:justify-end font-semibold"
+        >
+          <li><a href="#home">Home</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#project">Project</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main class="max-w-[1024px] mx-auto">
-      <section class="space-y-10 h-[70dvh] pt-40 px-4 md:px-4 lg:px-0">
+      <section
+        class="space-y-10 h-[70dvh] py-20 lg:py-30 px-4 md:px-4 lg:px-0 text-center lg:text-left border-b border-[#F8F8F8]"
+      >
         <h1 class="text-4xl lg:text-6xl">
-          Hello, I’m Dery.<br>
+          Hello, I’m Dery.<br />
           I’m a Software Engineer
         </h1>
         <p class="leading-10">
           A software engineer with a year of experience specializing in frontend
-          development,<br /> committed to crafting intuitive and engaging web
-          experiences.
+          development,<br />
+          committed to crafting intuitive and engaging web experiences.
         </p>
         <p>Continuously seeking challenges and opportunities.</p>
 
         <!-- <img src="/images/first-bg.png" alt="wave-bg-1" class="absolute w-screen left-0 -z-10 top-92 md:top-80 lg:top-52" /> -->
       </section>
-      <section class="bg-[#181818] px-4 md:px-4 lg:px-0 py-4 space-y-10">
-        <h2 class="text-2xl lg:text-4xl">Experience</h2>
-        <div class="flex flex-col justify-between item-center gap-8 lg:flex-row">
+      <section
+        id="experience"
+        class="bg-[#181818] px-4 md:px-4 lg:px-0 py-4 space-y-10"
+      >
+        <h3 class="text-2xl lg:text-4xl">Experience</h3>
+        <div
+          class="flex flex-col justify-between item-center gap-8 lg:flex-row"
+        >
           <p class="w-[108px]">Jul 2023 - Now</p>
           <hr class="border border-[#F8F8F8] flex-1 my-auto" />
           <div class="max-w-[580px]">
-            <h5>PT. Global Loyalty Indonesia</h5>
+            <h5 class="font-semibold text-lg">PT. Global Loyalty Indonesia</h5>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-              eius qui quibusdam pariatur nostrum tempora dolorum ipsa, esse
-              velit odit aperiam hic obcaecati, minima veniam ullam. Earum sunt
-              neque deserunt.
+              Working as a frontend developer, responsible for developing and
+              maintaining the company's website and web application. Also,
+              responsible for developing and maintaining the company's website
+              and web application. Also, responsible for developing and
+              maintaining the company's website and web application.
             </p>
           </div>
         </div>
-        <div class="flex flex-col justify-between item-center gap-8 lg:flex-row">
+        <div
+          class="flex flex-col justify-between item-center gap-8 lg:flex-row"
+        >
           <p class="w-[108px]">Aug 2022 - Jun 2023</p>
           <hr class="border border-[#F8F8F8] flex-1 my-auto" />
           <div class="max-w-[580px]">
-            <h5>PT. Qatros Teknologi Nusantara</h5>
+            <h3 class="font-semibold text-lg">
+              PT. Qatros Teknologi Nusantara
+            </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-              eius qui quibusdam pariatur nostrum tempora dolorum ipsa, esse
-              velit odit aperiam hic obcaecati, minima veniam ullam. Earum sunt
-              neque deserunt.
+              As a frontend engineer, I develop several web applications such as
+              those from Kemndagri, Sekolah.mu, Novus, and several other
+              applications.
             </p>
           </div>
         </div>
       </section>
-      <section class=" px-4 md:px-4 lg:px-0 py-4">
+      <section id="project" class=" px-4 md:px-4 lg:px-0 py-4">
         <h2 class="text-2xl lg:text-4xl">Project</h2>
-        <di class="flex flex-wrap justify-around gap-8 my-8">
-          <div class="max-w-96">
+        <di class="flex flex-wrap justify-around gap-8 my-12">
+          <div class="max-w-96 space-y-3 border border-[#F8F8F8] p-4 rounded-md">
             <img src="/images/movesgg-project.jpg" alt="movesgg-website" />
-            <h5>Movesgg</h5>
+            <h5 class="font-semibold">Movesgg</h5>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste
-              repellendus impedit reiciendis iure consequuntur, eius, eum
-              quibusdam neque animi dignissimos, suscipit aliquid modi excepturi
-              corporis eaque veritatis doloremque esse est?
+              It is a website used to manage e-sport tournaments owned by Novus.
             </p>
+            <div class="space-x-2">
+              <span class="bg-[#F8F8F8] text-[#181818] px-2 py-1 font-semibold rounded-sm">Nuxt</span>
+              <span class="bg-[#F8F8F8] text-[#181818] px-2 py-1 font-semibold rounded-sm">vuex</span>
+            </div>
           </div>
-          <div class="max-w-96">
+          <div class="max-w-96 space-y-3 border border-[#F8F8F8] p-4 rounded-md">
             <img src="/images/tdcac-project.jpg" alt="tdcac-website" />
-            <h5>TDCAC / Sekolah.mu</h5>
+            <h5 class="font-semibold">TDCAC / Sekolah.mu</h5>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste
-              repellendus impedit reiciendis iure consequuntur, eius, eum
-              quibusdam neque animi dignissimos, suscipit aliquid modi excepturi
-              corporis eaque veritatis doloremque esse est?
+              a website utilized for registration purposes for the Toyota Dream Car Art Contest, managed by Sekolah.Mu.
             </p>
+            <div class="space-x-2">
+              <span class="bg-[#F8F8F8] text-[#181818] px-2 py-1 font-semibold rounded-sm">vue</span>
+              <span class="bg-[#F8F8F8] text-[#181818] px-2 py-1 font-semibold rounded-sm">vuetify</span>
+              <span class="bg-[#F8F8F8] text-[#181818] px-2 py-1 font-semibold rounded-sm">vuex</span>
+            </div>
           </div>
         </di>
       </section>
-
     </main>
-    <footer class="max-w-[1024px] mx-auto space-y-10 h-[40vh] flex flex-col justify-center">
-      <h2 class="text-right text-5xl">Dery <br>Nugroho Marjuki</h2>
+    <footer
+      class="max-w-[1024px] mx-auto space-y-10 h-[40vh] flex flex-col justify-center px-4 md:px-4 lg:px-0 py-4"
+    >
+      <h2 class="text-right text-4xl lg:text-5xl">
+        Dery <br />Nugroho Marjuki
+      </h2>
       <div>
         <ul class="flex justify-end gap-8 font-semibold">
-          <li>Linkedin</li>
-          <li>GitHub</li>
-          <li>Email</li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/dery-nugroho-marjuki-0b5418231/"
+              target="_blank"
+              >Linkedin</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/derynm" target="_blank">GitHub</a>
+          </li>
+          <li>
+            <a href="mailto:dery02.nm@gmail.com">Email</a>
+          </li>
         </ul>
       </div>
     </footer>
+    <img
+      src="/images/footer-asset.png"
+      alt="wave-bg-2"
+      class="absolute w-screen left-0 -z-10 bottom-0 h-72 object-cover object-top"
+    />
   </body>
 </html>
