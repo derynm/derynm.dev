@@ -7,7 +7,6 @@
       name="description"
       content="Personal website of Dery Nugroho Marjuki"
     />
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="index.css" />
 
     <title>Dery Nugroho Marjuki</title>
@@ -17,7 +16,6 @@
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
-          <li><a href="#experience">Experience</a></li>
           <li><a href="#project">Project</a></li>
           <li><a href="#about">About</a></li>
         </ul>
@@ -35,20 +33,14 @@
           committed to crafting intuitive and engaging web experiences.
         </p>
         <p>Continuously seeking challenges and opportunities.</p>
-
-        <!-- <img src="/images/first-bg.png" alt="wave-bg-1" class="absolute w-screen left-0 -z-10 top-92 md:top-80 lg:top-52" /> -->
       </section>
-      <section
-        class="experience"
-      >
+      <section class="experience">
         <h3>Experience</h3>
-        <div
-          class="experience-item"
-        >
-          <p class="w-[108px]">Jul 2023 - Now</p>
-          <hr class="border border-[#F8F8F8] flex-1 my-auto" />
-          <div class="max-w-[580px]">
-            <h5 class="font-semibold text-lg">PT. Global Loyalty Indonesia</h5>
+        <div class="experience-item">
+          <p class="experience-item-date">Jul 2023 - Now</p>
+          <hr />
+          <div class="experience-item-company">
+            <h5>PT. Global Loyalty Indonesia</h5>
             <p>
               Working as a frontend developer, responsible for developing and
               maintaining the company's website and web application. Also,
@@ -58,15 +50,11 @@
             </p>
           </div>
         </div>
-        <div
-          class="experience-item"
-        >
-          <p class="w-[108px]">Aug 2022 - Jun 2023</p>
-          <hr class="border border-[#F8F8F8] flex-1 my-auto" />
-          <div class="max-w-[580px]">
-            <h3 class="font-semibold text-lg">
-              PT. Qatros Teknologi Nusantara
-            </h3>
+        <div class="experience-item">
+          <p class="experience-item-date">Aug 2022 - Jun 2023</p>
+          <hr />
+          <div class="experience-item-company">
+            <h5>PT. Qatros Teknologi Nusantara</h5>
             <p>
               As a frontend engineer, I develop several web applications such as
               those from Kemndagri, Sekolah.mu, Novus, and several other
@@ -75,63 +63,40 @@
           </div>
         </div>
       </section>
-      <section id="project" class=" px-4 md:px-4 lg:px-0 py-4">
+      <section id="project" class="project">
         <h3>Project</h3>
-        <div class="flex flex-wrap justify-around gap-8 my-12">
-          <div
-            class="max-w-96 space-y-3 border border-[#F8F8F8] p-4 rounded-md"
-          >
+        <div class="project-container">
+          <div class="project-item">
             <img src="/images/movesgg-project.jpg" alt="movesgg-website" />
-            <h5 class="font-semibold">Movesgg</h5>
+            <h5>Movesgg</h5>
             <p>
               It is a website used to manage e-sport tournaments owned by Novus.
             </p>
             <div class="space-x-2">
-              <span
-                class="bg-[#F8F8F8] text-[#181818] px-2 py-1 font-semibold rounded-sm"
-                >Nuxt</span
-              >
-              <span
-                class="bg-[#F8F8F8] text-[#181818] px-2 py-1 font-semibold rounded-sm"
-                >vuex</span
-              >
+              <span class="tech-item">Nuxt</span>
+              <span class="tech-item">vuex</span>
             </div>
           </div>
-          <div
-            class="max-w-96 space-y-3 border border-[#F8F8F8] p-4 rounded-md"
-          >
+          <div class="project-item">
             <img src="/images/tdcac-project.jpg" alt="tdcac-website" />
-            <h5 class="font-semibold">TDCAC / Sekolah.mu</h5>
+            <h5>TDCAC / Sekolah.mu</h5>
             <p>
               a website utilized for registration purposes for the Toyota Dream
               Car Art Contest, managed by Sekolah.Mu.
             </p>
             <div class="space-x-2">
-              <span
-                class="bg-[#F8F8F8] text-[#181818] px-2 py-1 font-semibold rounded-sm"
-                >vue</span
-              >
-              <span
-                class="bg-[#F8F8F8] text-[#181818] px-2 py-1 font-semibold rounded-sm"
-                >vuetify</span
-              >
-              <span
-                class="bg-[#F8F8F8] text-[#181818] px-2 py-1 font-semibold rounded-sm"
-                >vuex</span
-              >
+              <span class="tech-item">vue</span>
+              <span class="tech-item">vuetify</span>
+              <span class="tech-item">vuex</span>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer
-      class="max-w-[1024px] mx-auto space-y-10 h-[40vh] flex flex-col justify-center px-4 md:px-4 lg:px-0 py-4"
-    >
-      <h2 class="text-right text-4xl lg:text-5xl">
-        Dery <br />Nugroho Marjuki
-      </h2>
+    <footer>
+      <h2>Dery <br />Nugroho Marjuki</h2>
       <div>
-        <ul class="flex justify-end gap-8 font-semibold">
+        <ul class="social-media-contaier">
           <li>
             <a
               href="https://www.linkedin.com/in/dery-nugroho-marjuki-0b5418231/"
@@ -151,7 +116,7 @@
     <img
       src="/images/footer-asset.png"
       alt="wave-bg-2"
-      class="absolute w-screen left-0 -z-10 bottom-0 h-72 object-cover object-top"
+      class="background-footer"
     />
   </body>
 </html>
