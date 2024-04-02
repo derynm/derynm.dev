@@ -8,14 +8,14 @@
       content="Personal website of Dery Nugroho Marjuki"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css" />
+
     <title>Dery Nugroho Marjuki</title>
   </head>
-  <body class="bg-[#181818] text-[#F8F8F8] relative">
-    <header class="max-w-[1024px] mx-auto my-8">
+  <body>
+    <header>
       <nav>
-        <ul
-          class="flex justify-center item-center gap-8 lg:justify-end font-semibold"
-        >
+        <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#project">Project</a></li>
@@ -23,15 +23,13 @@
         </ul>
       </nav>
     </header>
-    <main class="max-w-[1024px] mx-auto">
-      <section
-        class="space-y-10 h-[70dvh] py-20 lg:py-30 px-4 md:px-4 lg:px-0 text-center lg:text-left border-b border-[#F8F8F8]"
-      >
-        <h1 class="text-4xl lg:text-6xl">
+    <main>
+      <section class="hero">
+        <h1>
           Hello, I’m Dery.<br />
           I’m a Software Engineer
         </h1>
-        <p class="leading-10">
+        <p>
           A software engineer with a year of experience specializing in frontend
           development,<br />
           committed to crafting intuitive and engaging web experiences.
@@ -41,12 +39,11 @@
         <!-- <img src="/images/first-bg.png" alt="wave-bg-1" class="absolute w-screen left-0 -z-10 top-92 md:top-80 lg:top-52" /> -->
       </section>
       <section
-        id="experience"
-        class="bg-[#181818] px-4 md:px-4 lg:px-0 py-4 space-y-10"
+        class="experience"
       >
-        <h3 class="text-2xl lg:text-4xl">Experience</h3>
+        <h3>Experience</h3>
         <div
-          class="flex flex-col justify-between item-center gap-8 lg:flex-row"
+          class="experience-item"
         >
           <p class="w-[108px]">Jul 2023 - Now</p>
           <hr class="border border-[#F8F8F8] flex-1 my-auto" />
@@ -62,7 +59,7 @@
           </div>
         </div>
         <div
-          class="flex flex-col justify-between item-center gap-8 lg:flex-row"
+          class="experience-item"
         >
           <p class="w-[108px]">Aug 2022 - Jun 2023</p>
           <hr class="border border-[#F8F8F8] flex-1 my-auto" />
@@ -79,29 +76,49 @@
         </div>
       </section>
       <section id="project" class=" px-4 md:px-4 lg:px-0 py-4">
-        <h2 class="text-2xl lg:text-4xl">Project</h2>
+        <h3>Project</h3>
         <div class="flex flex-wrap justify-around gap-8 my-12">
-          <div class="max-w-96 space-y-3 border border-[#F8F8F8] p-4 rounded-md">
+          <div
+            class="max-w-96 space-y-3 border border-[#F8F8F8] p-4 rounded-md"
+          >
             <img src="/images/movesgg-project.jpg" alt="movesgg-website" />
             <h5 class="font-semibold">Movesgg</h5>
             <p>
               It is a website used to manage e-sport tournaments owned by Novus.
             </p>
             <div class="space-x-2">
-              <span class="bg-[#F8F8F8] text-[#181818] px-2 py-1 font-semibold rounded-sm">Nuxt</span>
-              <span class="bg-[#F8F8F8] text-[#181818] px-2 py-1 font-semibold rounded-sm">vuex</span>
+              <span
+                class="bg-[#F8F8F8] text-[#181818] px-2 py-1 font-semibold rounded-sm"
+                >Nuxt</span
+              >
+              <span
+                class="bg-[#F8F8F8] text-[#181818] px-2 py-1 font-semibold rounded-sm"
+                >vuex</span
+              >
             </div>
           </div>
-          <div class="max-w-96 space-y-3 border border-[#F8F8F8] p-4 rounded-md">
+          <div
+            class="max-w-96 space-y-3 border border-[#F8F8F8] p-4 rounded-md"
+          >
             <img src="/images/tdcac-project.jpg" alt="tdcac-website" />
             <h5 class="font-semibold">TDCAC / Sekolah.mu</h5>
             <p>
-              a website utilized for registration purposes for the Toyota Dream Car Art Contest, managed by Sekolah.Mu.
+              a website utilized for registration purposes for the Toyota Dream
+              Car Art Contest, managed by Sekolah.Mu.
             </p>
             <div class="space-x-2">
-              <span class="bg-[#F8F8F8] text-[#181818] px-2 py-1 font-semibold rounded-sm">vue</span>
-              <span class="bg-[#F8F8F8] text-[#181818] px-2 py-1 font-semibold rounded-sm">vuetify</span>
-              <span class="bg-[#F8F8F8] text-[#181818] px-2 py-1 font-semibold rounded-sm">vuex</span>
+              <span
+                class="bg-[#F8F8F8] text-[#181818] px-2 py-1 font-semibold rounded-sm"
+                >vue</span
+              >
+              <span
+                class="bg-[#F8F8F8] text-[#181818] px-2 py-1 font-semibold rounded-sm"
+                >vuetify</span
+              >
+              <span
+                class="bg-[#F8F8F8] text-[#181818] px-2 py-1 font-semibold rounded-sm"
+                >vuex</span
+              >
             </div>
           </div>
         </div>
