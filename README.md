@@ -4,7 +4,9 @@ The website I use is dedicated to presenting my profile, including my biography,
 
 ## Link
 
- - Figma : [https://www.figma.com/file/Tj76vm6pED5r9MXI0DF5NF/derynm.dev?type=design&node-id=0%3A1&mode=design&t=rkfIS3iJDg2zQLd6-1](https://www.figma.com/file/Tj76vm6pED5r9MXI0DF5NF/derynm.dev?type=design&node-id=0:1&mode=design&t=rkfIS3iJDg2zQLd6-1)
+ - Website URL : [derynm.dev](https://derynm.dev/)
+ - GitHub Repo : <https://github.com/bearmentor-2/derynm.dev>
+ - Figma : <https://www.figma.com/file/Tj76vm6pED5r9MXI0DF5NF/derynm.dev?type=design&node-id=0:1&mode=design&t=rkfIS3iJDg2zQLd6-1>
  
 
 ## Social Media
@@ -14,4 +16,4 @@ The website I use is dedicated to presenting my profile, including my biography,
  - twitter : dery_nm
 
 ## Preview
-![Preview Website](./previews/personal-website-preview.png)
+![Preview Website](./previews/preview-website.png)
