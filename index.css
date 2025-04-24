@@ -11,7 +11,7 @@ html {
 body {
   background-color: #181818;
   font-family: Arial, sans-serif;
-  color: #f0f0f0;
+  color: #f0f0f0ee;
   position: relative;
 }
 
@@ -84,7 +84,10 @@ a {
 }
 
 .experience-item-date {
-  max-width: 108px;
+  width: 180px;
+  text-wrap: nowrap;
+  display: flex;
+  align-items: center;
 }
 
 .experience-item-company {
@@ -120,9 +123,23 @@ a {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  padding: 16px;
-  border: 1px solid #f8f8f8;
+  border: 1px solid #f0f0f0ee;
   border-radius: 8px;
+  background-color: #2a2929;
+}
+
+.project-item-description {
+  padding: 16px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.project-item img {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px 8px 0px 0px;
+  object-fit: cover;
+  object-position: top;
 }
 
 .project-item h5 {
